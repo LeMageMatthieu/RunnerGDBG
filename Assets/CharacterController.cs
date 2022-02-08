@@ -16,7 +16,7 @@ public class CharacterController : MonoBehaviour
  
          if (Input.GetKeyDown(KeyCode.Q))
          {
-           ;
+            ;
          }
  
          if (Input.GetKeyDown(KeyCode.D))

@@ -10,17 +10,17 @@ public float rbMovePosition;
 
 float horizontalInput;
 
-private void FixeUpdate()
-{
-    Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
-    // rbMovePosition(rb.position + forwardMove);
-}
+    private void FixeUpdate()
+    {
+        Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+        // rbMovePosition(rb.position + forwardMove);
+    }
 
-private void Update()
-{
-    horizontalInput = Input.GetAxis("Horizontal");
-}
+    private void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
 
-
+    
 
 }
