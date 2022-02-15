@@ -1221,13 +1221,13 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1628403743}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 11500000, guid: ac9c946638a213a4b9e5c58de9519dae, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1235,14 +1235,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 122d2806-7348-40a9-8f2e-82b879342928
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 378c5dc7-4062-4102-9e73-4320ace14418
-    m_ActionName: Player/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7185b1b4-60d4-44ce-9be9-f7d5ffef5fb9
-    m_ActionName: Player/Fire[/Mouse/leftButton]
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: af2b81f1-8e1a-4c55-9193-6e34199e462e
@@ -1283,17 +1275,15 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 68024cd2-3373-4d19-8304-52d44d35cc8f
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 474092ac-f170-4b78-96d0-9d6023ddcf84
+    m_ActionName: Player/Jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!1 &1628403743 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6664839552874652836, guid: 841e9b3dce3552b4daff7756e708b380,
-    type: 3}
-  m_PrefabInstance: {fileID: 1628403738}
-  m_PrefabAsset: {fileID: 0}
+  m_Camera: {fileID: 682248097}
 --- !u!1 &1893076198
 GameObject:
   m_ObjectHideFlags: 0
